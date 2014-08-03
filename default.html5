@@ -57,12 +57,16 @@ $if(abstract)$
 $abstract$
 </section>
 $endif$
+<div id="content">
 $if(toc)$
 <nav id="$idprefix$TOC">
 $toc$
 </nav>
 $endif$
+<div id="main_content">
 $body$
+</div>
+</div>
 $for(include-after)$
 $include-after$
 $endfor$
