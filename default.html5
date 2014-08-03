@@ -53,7 +53,7 @@ $endif$
 $endif$
 $if(abstract)$
 <section class="abstract">
-<h1 class="abstract">Abstract</h2>
+<h1 class="abstract">Abstract</h1>
 $abstract$
 </section>
 $endif$
