@@ -52,8 +52,8 @@ $endif$
 </header>
 $endif$
 $if(abstract)$
-<section id="abstract">
-<h1 id="abstract">Abstract</h2>
+<section class="abstract">
+<h1 class="abstract">Abstract</h2>
 $abstract$
 </section>
 $endif$
