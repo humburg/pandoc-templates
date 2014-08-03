@@ -51,6 +51,12 @@ $if(date)$
 $endif$
 </header>
 $endif$
+$if(abstract)$
+<section id="abstract">
+<h1 id="abstract">Abstract</h2>
+$abstract$
+</section>
+$endif$
 $if(toc)$
 <nav id="$idprefix$TOC">
 $toc$
