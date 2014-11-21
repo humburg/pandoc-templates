@@ -68,6 +68,7 @@ $endfor$
 $endif$
 $if(toc)$
 <section id="$idprefix$TOC">
+<h1>$if(toc-header)$$toc-header$$else$Table of Contents$endif$</h1>
 $toc$
 </section>
 $endif$
